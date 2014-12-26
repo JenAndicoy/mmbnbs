@@ -11,8 +11,13 @@
         </title>
         <link rel="stylesheet" href="assets/m.css">
 		<script src="./assets/hm.js"></script>
+        <script type="text/javascript">
+    function didLoad() {
+        window.location.href="weiyou://didLoad"  // by decamincow
+    }
+</script>
     </head>
-    <body>
+    <body onLoad="didLoad()">
         <div class="grid">
             <div class="page hide" id="loading" style="display: none;">
                 loading...
