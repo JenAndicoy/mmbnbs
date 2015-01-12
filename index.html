@@ -11,6 +11,15 @@
         </title>
         <link rel="stylesheet" href="assets/m.css">
 		<script src="./assets/hm.js"></script>
+        <style type="text/css">
+    {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none; / Disable selection/copy in UIWebView */
+    }
+    </style>
+    <script type="text/javascript">
+        document.ontouchmove = function(e) {e.preventDefault()};
+    </script>
 <script type="text/javascript">
         // Weixin
         function registerHandlerForWeixinShareContent()
